@@ -11,17 +11,10 @@
 4. Many capture–recapture studies involve some aspect of spatial or temporal replication that requires some attention to modelling variation among groups or strata. We propose a hierarchical model that allows explicit modelling of group or strata effects. Because the model is formulated for individual encounter histories and is easily implemented in the BUGS language and other free software, it also provides a general framework for modelling individual effects, such as are present in SCR models.
 
 ## Code 
-1. [IPM_analysis](./IPM_analysis/): This folder contains the code to load data and run the Integrated Population Model and goodness-of-fit for Chukchi Sea polar bears. It also contains the code to generate the JAGS file for the Bayesian implementation.
+1. Analysis_MEE (./Analysis_MEE/): This folder contains the original JAGS code used to run (an example data set) for the paper. This currently does not compile, due apparently to changes in JAGS. I have not updated it.  
 
-2. [recruitment_analysis](./recruitment_analysis/): This folder contains the code to load data and run the recruitment analysis (yearlings [c1s] per adult female). It also contains the code to generate the JAGS file for the Bayesian implementation.
-
-3. [density_extrapolation_analysis](./density_extrapolation_analysis/): This folder contains the code to run the density extrapolation.
-
+2. Analysis_MEE_updated (./Analysis_MEE_Updated/): This folder contains a NIMBLE implementation of the model, courtesy of Nathan Hostetter. 
 
 ## Data
 
-Code (JAGS and NIMBLE) and example data for implementing hierarchical spatial capture-recapture models
-
-The original analysis was completed with the JAGS code. As of early 2020, this code is not compiling, apparently due to changes in JAGS. I haven't had to time work out how to fix it.  
-
-The NIMBLE version of the code (written by Nathan Hostetter) does compile and run efficiently. 
+An R workspace containing the data necessary for running the code.  
