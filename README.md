@@ -17,4 +17,4 @@
 
 ## Data
 
-An R workspace containing the data necessary for running the code.  
+Example_MEE.RData (./Example_MEE/) 
