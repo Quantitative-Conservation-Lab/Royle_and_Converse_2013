@@ -1,6 +1,8 @@
-# Royle_and_Converse_2013
+# [Hierarchical spatial capture-recapture models: modelling population density in stratified populations.](https://doi.org/10.1111/2041-210X.12135)
 
-# Royle JA and SJ Converse. 2013. Hierarchical spatial capture-recapture models: modelling population density in stratified populations. Methods in Ecology and Evolution. https://doi.org/10.1111/2041-210X.12135.
+### Royle J.A. and S.J. Converse
+
+### Methods in Ecology and Evolution 
 
 Code (JAGS and NIMBLE) and example data for implementing hierarchical spatial capture-recapture models
 
