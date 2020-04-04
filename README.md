@@ -11,10 +11,10 @@
 4. Many capture–recapture studies involve some aspect of spatial or temporal replication that requires some attention to modelling variation among groups or strata. We propose a hierarchical model that allows explicit modelling of group or strata effects. Because the model is formulated for individual encounter histories and is easily implemented in the BUGS language and other free software, it also provides a general framework for modelling individual effects, such as are present in SCR models.
 
 ## Code 
-1. Analysis_MEE (./Analysis_MEE/): This folder contains the original JAGS code used to run (an example data set) for the paper. This currently does not compile, due apparently to changes in JAGS. I have not updated it.  
+1. Analysis_MEE.r: This folder contains the original JAGS code used to run (an example data set) for the paper. This currently does not compile, due apparently to changes in JAGS. I have not updated it.  
 
-2. Analysis_MEE_updated (./Analysis_MEE_Updated/): This folder contains a NIMBLE implementation of the model, courtesy of Nathan Hostetter. 
+2. Analysis_MEE_updated.r: This folder contains a NIMBLE implementation of the model, courtesy of Nathan Hostetter. 
 
 ## Data
 
-Example_MEE.RData (./Example_MEE/) 
+Example_MEE.RData: R workspace containing the data objects necessary to run the model. 
